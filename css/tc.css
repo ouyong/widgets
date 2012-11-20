@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {overflow-y:scroll;overflow-x:hidden;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+background:transparent; border:0;font-family:'宋体',Arial, Helvetica, sans-serif;font-size:100%;margin:0;outline:0;padding:0;font-style:normal;}
+body {font-size:12px;background:url(../images/topbg.gif) repeat-x top;}
+* {padding:0;margin:0;}
+ul,li { list-style:none;}
+em { font-style:normal;}
+.clear { clear: both;}
+.height0{ height:0; font-size:0;}
+a {color:#0000CC;}
+a:link,a:visited {color:#0000CC; text-decoration:none;}
+a:hover {color:#f60;}
+
+.fl { float:left;}
+.fr { float:right;}
+.back_d6e0eb{ background:#d6e0eb;}
+
+
+.layout{height:auto; margin:0 auto; padding-top:50px;}
+.tanchubd{ width:auto; height:auto; margin:0 auto; border:1px solid #a2b1c5; background:#d6e0eb; padding:5px;}
+
+
+.mytc_title{ line-height:20px; height:20px;}
+.mytc_title span{ float:left; color:#0000cc; font-weight:bold;}
+.mytc_title img{ float:right; margin-top:2px; cursor:pointer;}
+.mytc_center{ border:1px solid #b7cbeb; background:#f5f8fc;}
+.mytc_bottom{ padding-top:5px; text-align:center;}
+.mytc_bottom input{ margin-right:10px; padding:2px 15px;}
+.mytc_center_dbq{ background:url(../images/duobq_back.gif) repeat-x; height:27px;padding-top: 6px;}
+.mytc_center_dbq_nav{ height:23px; padding-left:5px;}
+.mytc_center_dbq_nav span{ background:url(../images/nav_back1.gif); height:23px; line-height:23px; width:91px; text-align:center; display:inline-block;}
+.mytc_center_dbq_nav .on_line{background:url(../images/nav_back2.gif);}
+
+/*词库-选择合作*/
+.tcwidth1{width:260px;}
+.selsect_hezuo{overflow: hidden; padding:10px;}
+.selsect_hezuo .sname{ height:20px;width: 185px;margin-right: 10px;float: left}
+.selsect_hezuo textarea{ resize:none; width:217px;margin-top: 5px;height: 140px;}
+
+/*分类-修改分类*/
+.tcwidth2{width:400px;}
+.edit_cate{padding:10px;}
+.edit_cate ul {list-style: none;width: 99%;float: left;}
+.edit_cate li {list-style: none;float: left;width: 100%;line-height: 35px;}
+.edit_cate li label{font-size: 12px;}
+.edit_cate li span{font-size: 12px;margin-left: 30px;}
+.edit_cate li span a{color: blue;font-size: 12px;text-decoration: none;} 
+
+/*词库-批量修改关键词*/
+.tcwidth3{width:450px;}
+.batch_modify{
+	width:100%;
+	}
+.batch_modify *{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif,"宋体";
+	color:#000;
+	list-style:none;
+	}
+.batch_modify ul{
+	margin:10px;
+	}
+.batch_modify li{
+	line-height:20px;
+	padding:5px 0;
+	}
+.batch_modify label{
+	display:inline-block;
+	width:20%;
+	text-align:left;
+	vertical-align: top;
+	}
+.batch_modify span{
+	display:inline-block;
+	width:70%;
+	text-align:left;
+	}
+.batch_modify span a{
+	color:#0000ff;
+	text-decoration:none;
+	display: inline-block;
+    margin-left: 6px;
+	}
+.batch_modify span a:link,.batch_modify span a:visited{
+	color:#0000ff;
+	text-decoration:none;
+	}
+.batch_modify span a:hover{
+	color:#0000ff;
+	text-decoration:underline;
+	}
+
+/*词库-修改关键词*/
+.tcwidth4{width:450px;}
+.mod_keywords{
+	width:100%;
+	}
+.mod_keywords *{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif,"宋体";
+	color:#000;
+	list-style:none;
+	}
+.mod_keywords ul{
+	margin:10px;
+	}
+.mod_keywords li{
+	line-height:20px;
+	padding:5px 0;
+	}
+.mod_keywords label{
+	display:inline-block;
+	width:20%;
+	text-align:left;
+	vertical-align:top;
+	}
+.mod_keywords span{
+	display:inline-block;
+	width:70%;
+	text-align:left;
+	word-wrap: break-word;
+	word-break: normal;
+	}
+.mod_keywords span a{
+	color:#0000ff;
+	text-decoration:none;
+	display: inline-block;
+    margin-left: 6px;
+	}
+.mod_keywords span a:link,.batch_modify span a:visited{
+	color:#0000ff;
+	text-decoration:none;
+	}
+.mod_keywords span a:hover{
+	color:#0000ff;
+	text-decoration:underline;
+	}
+.mod_width{
+	width:140px;
+	height:20px;
+	}
+	
+	
+/*词库-查看关键词*/
+.tcwidth4{width:450px;}	
+.view_keywords{
+	width:100%;
+	}
+.view_keywords *{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif,"宋体";
+	color:#000;
+	list-style:none;
+	}
+.view_keywords ul{
+	margin:10px;
+	}
+.view_keywords li{
+	line-height:20px;
+	padding:5px 0;
+	}
+.view_keywords label{
+	display:inline-block;
+	width:20%;
+	text-align:left;
+	vertical-align:top;
+	}
+.view_keywords span{
+	display:inline-block;
+	width:70%;
+	text-align:left;
+	word-wrap: break-word;
+	word-break: normal;
+	}
+.view_keywords span a{
+	color:#0000ff;
+	text-decoration:none;
+	display: inline-block;
+    margin-left: 6px;
+	}
+.view_keywords span a:link,.batch_modify span a:visited{
+	color:#0000ff;
+	text-decoration:none;
+	}
+.view_keywords span a:hover{
+	color:#0000ff;
+	text-decoration:underline;
+	}
+	
+	
+/*词库-设置模板*/
+.tcwidth_mb{width:550px; }
+.new_moban{padding-top:10px;}
+.new_moban_top{ text-align:center; line-height:20px; width:100%;}
+.new_moban_top2{ text-align:center;line-height:20px; background:#c8e9ff; margin:5px 0; width:100%;}
+.new_moban_top3{ padding:0 5px; line-height:20px; height:20px;}
+.new_moban_top3 span{ vertical-align:middle;}
+.new_moban_top3 input{ vertical-align: text-bottom; margin:0; padding:0;}
+.new_moban_top4{ padding:5px;}
+.one_mod{ padding:10px 0; float:left; width:100%;}
+.one_mod_c{ width:300px; padding-left:10px;;}
+.one_mod_c p{ padding-top:7px;}
+.one_mod_r{padding-left:10px; text-align:right; line-height:30px;float:right;}
+.one_mod_r li{ background:url(../images/xing-1.gif); width:10px; height:10px; float:left;}
+.one_mod_r .xing2{ background:url(../images/xing-2.gif);}
+.one_mod_r p{ width:100%; display:block; padding-top:20px;;}
+
+/*词库-更换模板*/
+.tcwidth_mb{width:550px; }
+.new_moban_top .genghuan{ width:49%; display:inline-block;}
+.new_moban_top .genghuan .ghtit{ background:#e4e4e4; margin:0 5px; margin-bottom:10px;}
+
+/*添加用户*/
+.tcwidth5{width:450px; }
+.yonghuadds{padding-left:12px;*padding-left:2px;}
+.yonghuadds2{padding-left:12px;}
+
+/*模板-更换模板*/
+.tcwidth_mb2{width:480px; }
+.mod_keywords  .moban_rtj{vertical-align: top;width: 200px;_width: 180px; float:left; padding-left:5px;}
+
+/*合作管理*/
+.tcwidth_hz{width:600px; }
+.tj_dingdan{background:#ccc;}
+.tj_dingdan tr{ height:22px;}
+.tj_dingdan td{ padding:0 5px; background:#fff;}
+.tj_dingdan .one_hang td{ background:#eee; text-align:center;}
+
+.pingfen input{ margin-left:10px;*margin-left:5px;}
+.pingfen label{ width:12%;}
+.pingfen span{ width:83%;}
+.yunying label{ width:26%;}
+.yunying span{ width:68%;}
