@@ -1,7 +1,6 @@
 <?php
 class SurveyOperateLog extends CMonoActiveRecord{
 	
-	public $id;
 	public $opt_type;
 	public $opt_time;
 	public $opt_name;
@@ -20,14 +19,13 @@ class SurveyOperateLog extends CMonoActiveRecord{
 	
 	public function rules() {
 		return array(
-				array('id, opt_type, opt_time,opt_name, opt_content','safe')
+				array('opt_type, opt_time,opt_name, opt_content','safe')
 		);
 	}
 	
 	public function attributeLabels(){
 		
 		return array(
-				'id'=>'Id',
 				'opt_type'=>'类型',
 				'opt_time'=>'时间',
 				'opt_name'=>'名称',

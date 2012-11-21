@@ -1,7 +1,6 @@
 <?php
 class SurveyItem extends CMonoActiveRecord{
 
-	public $id;
 	public $survey_id;
 	public $item_title;
 	public $item_vote_count;
@@ -19,13 +18,12 @@ class SurveyItem extends CMonoActiveRecord{
 
 	public function rules(){
 		return array(
-				array('id, survey_id, item_title,item_vote_count, item_ratio','safe')
+				array('survey_id, item_title,item_vote_count, item_ratio','safe')
 		);
 	}
 	
 	public function attributeLabels(){
 		return array(
-				'id'=>'ID',
 				'survey_id'=>'survey_id',
 				'item_title'=>'标题',
 				'item_vote_count'=>'计票结果',
